@@ -1,7 +1,6 @@
 ;;; magic-girl-theme.el --- inspired by TheKey.Company's Magic Girl keycap set. -*- no-byte-compile: t; -*-
 (require 'doom-themes)
 
-;;
 (defgroup magic-girl-theme nil
   "Options for doom-themes"
   :group 'doom-themes)
@@ -205,10 +204,6 @@ determine the exact padding."
    ;; org-mode
    (org-hide :foreground hidden)
    (solaire-org-hide-face :foreground hidden))
-
-
-  ;; --- extra variables ---------------------
-  ()
   )
 
 ;;; magic-girl-theme.el ends here
